@@ -1,0 +1,142 @@
+body {
+    background-color: #fff;
+    margin: 20px 140px;
+    font-family: "Quicksand", serif;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+/* Left Section (Logo and Title) */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-section img {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+}
+
+.logo-section span {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.links-1 {
+    color: orange;
+    font-weight: bold;
+}
+.links-2 {
+    color: rgb(28, 217, 224);
+    font-weight: bold;
+}
+.links-3 {
+    color: rgb(96, 176, 230);
+    font-weight: bold;
+}
+.links-4 {
+    color: rgb(232, 222, 24);
+    font-weight: bold;
+}
+/* Right Section (Button) */
+.login-btn {
+    background-color: #eea508e9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #02d17be5;
+}
+/* banner section style */
+.banner-container {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-top: 20px;
+}
+.banner-heading {
+    font-size: 54px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.text-empowering {
+    color: rgb(255, 218, 8);
+}
+.text-vision {
+    color: rgba(46, 211, 184, 0.87);
+}
+.banner-description {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.banner-btn {
+    background-color: #080808e9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.banner-img {
+    height: 30%;
+    width: 55%;
+}
+/* Standard curriculum style  */
+.standard-heading {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin: 3.5rem 5rem;
+}
+.standard-section {
+    background-image: url(assets/bg.png);
+}
+/* card section */
+.card-container {
+    display: flex;
+}
+.signal-card1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    padding: 3rem;
+}
+.card-btn1 {
+    color: aquamarine;
+    padding: 5px 1.5rem;
+}
