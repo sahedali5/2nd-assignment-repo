@@ -1,10 +1,10 @@
 body {
     background-color: #fff;
-    margin: 20px 140px;
     font-family: "Quicksand", serif;
 }
 
 header {
+    margin: 20px 140px;
     padding: 15px 0;
 }
 
@@ -13,6 +13,9 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
+}
+.end-line {
+    display: none;
 }
 
 /* Left Section (Logo and Title) */
@@ -72,11 +75,14 @@ header {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
-.login-btn:hover {
-    background-color: #02d17be5;
+.menu-icon {
+    display: none;
 }
+
 /* banner section style */
+.banner {
+    margin: 20px 140px;
+}
 .banner-container {
     display: flex;
     align-items: center;
@@ -119,6 +125,7 @@ header {
     background: url(assets/bg.png);
     background-size: cover;
     text-align: center;
+    margin: 20px 140px;
 }
 .standard-heading {
     font-size: 3rem;
@@ -216,6 +223,8 @@ header {
     background-size: cover;
     background-position: center;
     border-radius: 0.5rem;
+    margin: 20px 140px;
+    /* margin-bottom: 5rem; */
     box-shadow: 0 -6px 15px 5px rgba(205, 203, 203, 0.574);
 }
 .arrow-container {
@@ -354,4 +363,125 @@ header {
     font-weight: 500;
     line-height: 1.2rem;
     padding: 1.5rem;
+}
+.box-btn {
+    display: flex;
+    justify-content: center;
+    background: url(assets/bg.png);
+    margin: 0 140px;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+table {
+    width: 100%;
+    background-color: #a2f4ff;
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}
+a {
+    color: #00c4ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #233b3ace;
+    padding: 0 9.5rem;
+}
+.education-footer {
+    display: flex;
+    gap: 5rem;
+}
+.education-container {
+    padding: 1rem;
+}
+.education-container-logo {
+    display: flex;
+    margin-top: 8rem;
+    /* gap: 0.7rem; */
+}
+
+.education-title {
+    margin: 0;
+    font-size: 2.6rem;
+    color: floralwhite;
+    font-weight: bold;
+}
+.education-title-description {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 2.1rem;
+    margin-bottom: 11rem;
+}
+.about-school-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 7.5rem;
+}
+.about-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.about-school-container > a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.social-media {
+    display: inline-block;
+}
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0;
+        padding: 1rem;
+    }
+    header,
+    .banner,
+    .standard-section {
+        margin: 0 1rem;
+    }
+    .nav-links,
+    .login-btn,
+    .logo-section span {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .end-line {
+        display: block;
+        border: 0.1rem solid orange;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-heading {
+        font-size: 2rem;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    .standard-heading {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    .card-container {
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        border-radius: 1.1rem;
+    }
 }
