@@ -280,13 +280,6 @@ header {
     border-radius: 0.5rem;
     position: relative;
 }
-
-.box-3 {
-}
-.box-4 {
-}
-.box-5 {
-}
 .stories-card-container img {
     border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -483,5 +476,49 @@ footer {
         gap: 1.5rem;
         justify-content: center;
         border-radius: 1.1rem;
+    }
+    .carousel-nav {
+        display: none;
+    }
+    .box-1 {
+        display: none;
+    }
+    .stories-container {
+        background: linear-gradient(45deg, rgba(219, 115, 115, 0.547), rgba(0, 0, 0, 0.1)), url(assets/bg.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 0.5rem;
+        margin: 0;
+        box-shadow: 0 -6px 15px 5px rgba(205, 203, 203, 0.574);
+    }
+    .stories-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .box-date2,
+    .box-date3,
+    .box-date4,
+    .box-date5 {
+        top: 35%;
+        left: 15%;
+    }
+
+    .box-title2,
+    .box-title3,
+    .box-title4,
+    .box-title5 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin: 0;
+        text-align: start;
+    }
+    .box-btn {
+        display: flex;
+        justify-content: center;
+        background: url(assets/bg.png);
+        margin: 0;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
     }
 }
